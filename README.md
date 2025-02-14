@@ -3,7 +3,7 @@
 ## Overview
 This project demonstrates how to implement a complete data engineering pipeline using the **Medallion Architecture** (Bronze, Silver, and Gold layers) within **Azure Databricks**. It integrates several Azure services and **dbt (Data Build Tool)** to orchestrate data ingestion, transformation, and storage, ensuring a robust, scalable, and secure solution.
 
-![Medallion Architecture]()
+![Medallion Architecture](https://github.com/ndomah/Azure-Medallion-Pipeline/blob/main/architecture.png)
 
 
 ## Architecture at a Glance
