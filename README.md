@@ -8,15 +8,15 @@ This project demonstrates how to implement a complete data engineering pipeline 
 
 ## Architecture at a Glance
 
-1. **Bronze Layer (Raw Data)**
+1. **🥉Bronze Layer (Raw Data)**
    - Ingests data from various sources (e.g., Kafka, Kinesis, CSV files).
    - Stores data in its raw form in **Azure Data Lake**.
 
-2. **Silver Layer (Cleaned & Conformed Data)**
+2. **🥈Silver Layer (Cleaned & Conformed Data)**
    - Cleanses and standardizes raw data in **Azure Databricks**.
    - Ensures data quality and consistency.
 
-3. **Gold Layer (Aggregated & Business-Level Data)**
+3. **🥇Gold Layer (Aggregated & Business-Level Data)**
    - Aggregates and curates data for analytics, reporting, and machine learning.
    - Publishes business-ready datasets in **Azure Data Lake** or relational stores.
 
